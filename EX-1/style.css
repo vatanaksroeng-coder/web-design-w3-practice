@@ -1,0 +1,28 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    padding:100px;
+}
+.card1,.card2, .card3 {
+    background: white;
+    width: 400px;
+    margin: 30px 100px; 
+    padding:20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button {
+    padding:10px;
+    color:white;
+    border: none;
+    border-radius: 20px;
+}
+#Button1 {
+    background-color: rgb(27, 122, 230);
+}
+#Button2 {
+    background-color:rgb(230, 230, 25);
+}
+#Button3 {
+    background-color:blueviolet;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color:white;
+    margin: 400px;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border:5px solid #0e0c0d;
+}
+.profile-card {
+    width: 100px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Lifted look */
+    text-align: center;
+}
+.short.bio {
+    font-size: 14px;
+    margin:auto;
+    width: 350px;
+    padding: 10px;
+    margin:20px;
+}
+.input-with-icon .icon {
+    padding: 12px;
+    margin:10px;
+}
+button  {
+    background-color:rgb(172, 236, 236);
+    margin:10px;
+    cursor:pointer;
+}
+button:hover {
+    background-color:aqua;
+}
